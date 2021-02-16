@@ -1,0 +1,12 @@
+{
+    "item.minecraft.knowledge_book": "Click to craft!",
+    "item.eggo.nrr.reactor_core.normal": "Nether Reactor Core",
+    "item.eggo.nrr.reactor_core.active": "Nether Reactor Core (Active)",
+    "item.eggo.nrr.reactor_core.inactive": "Nether Reactor Core (Inactive)",
+    "advancement.eggo.nrr.obtain_core.title": "The Primitive Ways",
+    "advancement.eggo.nrr.obtain_core.description": "Obtain the Nether Reactor Core",
+    "advancement.eggo.nrr.spiral_madness.title": "Spiral Madness",
+    "advancement.eggo.nrr.spiral_madness.description": "Activate a Nether Reactor",
+    "advancement.eggo.nrr.insanity.title": "Insanity",
+    "advancement.eggo.nrr.insanity.description": "Re-activate a Nether Reactor"
+}

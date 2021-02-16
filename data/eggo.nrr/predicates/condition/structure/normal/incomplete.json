@@ -1,0 +1,63 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "nbt": "{Tags: [\"eggo.nrr.reactor_core.normal\"]}"
+        }
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eggo.nrr:structure/normal/incomplete"
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:alternative",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags: [\"eggo.nrr.condition.not_level\"]}"
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags: [\"eggo.nrr.condition.placed_too_high\"]}"
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags: [\"eggo.nrr.condition.placed_too_low\"]}"
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags: [\"eggo.nrr.condition.cores_nearby\"]}"
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags: [\"eggo.nrr.condition.players_nearby_too_far\"]}"
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags: [\"eggo.nrr.condition.structure_valid\"]}"
+                    }
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,61 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/0-999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/1000-1999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/2000-2999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/3000-3999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/4000-4999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/5000-5999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/6000-6999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/7000-7999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/8000-8999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/9000-9999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/10000-10999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/11000-11999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/12000-12999"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:timeskip/23000-23999"
+        }
+    ]
+}

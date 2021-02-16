@@ -1,0 +1,57 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "tag": "eggo.nrr:structure/hybrid"
+            }
+        },
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 1
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "tag": "eggo.nrr:structure/hybrid"
+            }
+        },
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 0
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "tag": "eggo.nrr:structure/hybrid"
+            }
+        },
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 0
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "tag": "eggo.nrr:structure/hybrid"
+            }
+        },
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 0
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "tag": "eggo.nrr:structure/hybrid"
+            }
+        },
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": -1
+    }
+]

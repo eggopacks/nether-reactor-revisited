@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "pack_format": 6,
+        "description": [
+            {
+                "text": "A bundlepack from: \n"
+            },
+            {
+                "text": "https://github.com/eggopacks",
+                "color": "blue",
+                "underlined": true
+            }
+        ]
+    }
+}

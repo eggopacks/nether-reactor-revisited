@@ -1,0 +1,79 @@
+{
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "dimension": "minecraft:the_nether"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "eggo.nrr.pr": {
+                                "min": 1,
+                                "max": 1
+                            },
+                            "eggo.nrr.pr1": {
+                                "min": 0,
+                                "max": 0
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eggo.nrr:portal_restrict/in_portal"
+                    }
+                ],
+                "block": "minecraft:nether_portal"
+            }
+        },
+        "exit": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "minecraft:the_nether"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "eggo.nrr.pr": {
+                                "min": 1,
+                                "max": 1
+                            },
+                            "eggo.nrr.pr2": {
+                                "min": 0,
+                                "max": 0
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eggo.nrr:portal_restrict/in_portal"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter",
+            "exit"
+        ]
+    ],
+    "rewards": {
+        "function": "eggo.nrr:misc/portal_restrict/in_portal"
+    }
+}

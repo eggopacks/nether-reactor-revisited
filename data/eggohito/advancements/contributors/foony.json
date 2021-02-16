@@ -1,0 +1,27 @@
+{
+    "parent": "eggohito:nether_reactor_revisited",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: \"Foony_\"}"
+        },
+        "title": {
+            "text": "Foony_"
+        },
+        "description": [
+            {
+                "text": "contributed to this project!",
+                "color": "gray"
+            }
+        ],
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true,
+        "frame": "task"
+    },
+    "criteria": {
+        "grant_on_load": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

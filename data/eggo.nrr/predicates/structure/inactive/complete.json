@@ -1,0 +1,14 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "eggo.nrr:structure/inactive/complete/layer1"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eggo.nrr:structure/inactive/complete/layer2"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eggo.nrr:structure/inactive/complete/layer3"
+    }
+]

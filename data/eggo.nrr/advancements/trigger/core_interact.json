@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "action": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "nbt": "{Lock: \"U|1OwB0Ld$lA$1dDeN(3$7istonyst@R@|L5terin5!aTc#ifirK$pU(H4rITab4\"}"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "action"
+        ]
+    ],
+    "rewards": {
+        "function": "eggo.nrr:trigger/core_interact"
+    }
+}

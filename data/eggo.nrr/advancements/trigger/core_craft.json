@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "normal": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "eggo.nrr:block/core/normal"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eggo.nrr:trigger/core_craft"
+    }
+}

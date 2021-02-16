@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                        "translate": "item.eggo.nrr.reactor_core.active",
+                        "italic": false,
+                        "color": "yellow"
+                    }
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{eggo: {nrr: {placeholder: 1b}}, EntityTag: {Tags: [\"eggo.nrr.reactor_core\", \"eggo.nrr.reactor_core.placeholder\", \"eggo.nrr.reactor_core.active\", \"eggo.nrr.reactor_core.unstable\"], Item: {tag: {CustomModelData: 0}, id: \"minecraft:structure_void\", Count: 1b}, Fixed: 1b, Silent: 1b, Invisible: 1b, Invulnerable: 1b}, CustomModelData: 2}"
+                }
+            ]
+        }
+    ]
+}

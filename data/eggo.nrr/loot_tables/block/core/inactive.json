@@ -1,0 +1,117 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                        "translate": "item.eggo.nrr.reactor_core.inactive",
+                        "italic": false,
+                        "color": "yellow"
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "Forge uses left: %s",
+                            "italic": false,
+                            "color": "gray", 
+                            "with": [
+                                {
+                                    "entity": "@s",
+                                    "nbt": "Item.tag.eggo.nrr.forge_uses_left"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{eggo: {nrr: {placeholder: 1b}}, EntityTag: {Tags: [\"eggo.nrr.reactor_core\", \"eggo.nrr.reactor_core.placeholder\", \"eggo.nrr.reactor_core.inactive\"], Item: {tag: {CustomModelData: 0}, id: \"minecraft:structure_void\", Count: 1b}, Fixed: 1b, Silent: 1b, Invisible: 1b, Invulnerable: 1b}, CustomModelData: 3}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "source": "this",
+                    "ops": [
+                        {
+                            "source": "Item.tag.eggo.nrr.forge_uses_left",
+                            "target": "EntityTag.Item.tag.eggo.nrr.forge_uses_left",
+                            "op": "replace"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags: [\"eggo.nrr.reactor_core\"]}"
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                        "translate": "item.eggo.nrr.reactor_core.inactive",
+                        "italic": false,
+                        "color": "yellow"
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "Forge uses left: %s",
+                            "color": "gray", 
+                            "with": [
+                                {
+                                    "text": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{eggo: {nrr: {placeholder: 1b}}, EntityTag: {Tags: [\"eggo.nrr.reactor_core\", \"eggo.nrr.reactor_core.placeholder\", \"eggo.nrr.reactor_core.inactive\"], Item: {tag: {CustomModelData: 125000, eggo: {nrr: {forge_uses_left: 0}}}, id: \"minecraft:structure_void\", Count: 1b}, Fixed: 1b, Silent: 1b, Invisible: 1b, Invulnerable: 1b}, CustomModelData: 125003}"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags: [\"eggo.nrr.reactor_core\"]}"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

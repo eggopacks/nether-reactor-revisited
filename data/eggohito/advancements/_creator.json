@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: \"eggohito\"}"
+        },
+        "title": {
+            "text": "eggohito"
+        },
+        "description": [
+            {
+                "text": "The creator of the datapack(s) inside this advancement tab",
+                "color": "gray"
+            },
+            {
+                "translate": "\n\nDiscord tag: %s",
+                "with": [
+                    {
+                        "text": "eggohito#9048",
+                        "color": "blue"
+                    }
+                ]
+            }
+        ],
+        "announce_to_chat": false,
+        "background": "minecraft:textures/block/gray_concrete_powder.png",
+        "show_toast": false,
+        "hidden": true,
+        "frame": "task"
+    },
+    "criteria": {
+        "grant_on_load": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

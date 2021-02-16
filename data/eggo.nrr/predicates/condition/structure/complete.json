@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:structure/normal/complete"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eggo.nrr:structure/inactive/complete"
+        }
+    ]
+}

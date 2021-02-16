@@ -1,0 +1,27 @@
+{
+    "parent": "eggo.nrr:obtain_core",
+    "display": {
+        "icon": {
+            "item": "minecraft:item_frame",
+            "nbt": "{CustomModelData: 3}"
+        },
+        "title": {
+            "translate": "advancement.eggo.nrr.insanity.title"
+        },
+        "description": {
+            "translate": "advancement.eggo.nrr.insanity.description"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 100
+    }
+}

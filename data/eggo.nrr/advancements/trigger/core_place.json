@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "placed_reactor_core": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "nbt": "{eggo: {nrr: {placeholder: 1b}}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eggo.nrr:trigger/core_place"
+    }
+}
