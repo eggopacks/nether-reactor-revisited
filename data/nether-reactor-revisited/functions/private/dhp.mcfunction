@@ -23,6 +23,7 @@ tellraw @s {"text": "You shouldn't be running this function :P", "color": "red"}
 #declare score_holder #rng.range Determines the range for `#rng.result`
 #declare score_holder $reconstruct_interval Determines the interval for changing the structure frame
 #declare score_holder $deconstruct_interval Determines the interval for changing the structure frame
+#declare score_holder $spawn_stuff_interval Determines the interval for spawning stuff
 #declare score_holder $explode_after_ticks Make the core explode after the specified tick(s)
 #declare score_holder $max_active_ticks Determines how long the core should be active
 #declare score_holder $set_daytime_to Sets the daytime to this value upon successfully activating a normal/inactive core

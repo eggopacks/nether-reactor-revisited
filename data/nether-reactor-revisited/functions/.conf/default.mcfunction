@@ -9,6 +9,8 @@ scoreboard players set $reconstruct_interval n-r-r 20
 
 scoreboard players set $deconstruct_interval n-r-r 10
 
+scoreboard players set $spawn_stuff_interval n-r-r 20
+
 scoreboard players set $explode_after_ticks n-r-r 100
 
 scoreboard players set $max_active_ticks n-r-r 900

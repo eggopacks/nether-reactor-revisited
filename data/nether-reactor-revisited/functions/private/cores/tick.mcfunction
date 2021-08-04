@@ -17,7 +17,7 @@ execute unless block ~ ~ ~ #nether-reactor-revisited:cores run function nether-r
 
 
     ##  Spawn zombified piglins!
-    execute if entity @s[tag = nether-reactor-revisited.active, tag = nether-reactor-revisited.stable, tag = !nether-reactor-revisited.reconstructing] run function nether-reactor-revisited:private/events/spawn_ziglins
+    execute if entity @s[tag = nether-reactor-revisited.active, tag = nether-reactor-revisited.stable, tag = !nether-reactor-revisited.reconstructing] run function nether-reactor-revisited:private/events/spawn_stuff
 
 
     ##   Explosion timer countdown!
