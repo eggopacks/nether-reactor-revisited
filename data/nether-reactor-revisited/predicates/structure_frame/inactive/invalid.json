@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:reference",
+                "name": "nether-reactor-revisited:structure_frame/inactive/complete"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "nether-reactor-revisited:structure_frame/inactive/incomplete"
+            }
+        ]
+    }
+}

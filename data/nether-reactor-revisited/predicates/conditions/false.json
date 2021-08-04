@@ -1,0 +1,78 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#placed_too_low"
+                    },
+                    "score": "n-r-r"
+                },
+                "range": {
+                    "min": 1
+                }
+            },
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#placed_too_high"
+                    },
+                    "score": "n-r-r"
+                },
+                "range": {
+                    "min": 1
+                }
+            },
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#nearby_players_too_far"
+                    },
+                    "score": "n-r-r"
+                },
+                "range": {
+                    "min": 1
+                }
+            },
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#nearby_cores"
+                    },
+                    "score": "n-r-r"
+                },
+                "range": {
+                    "min": 1
+                }
+            },
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#not_level"
+                    },
+                    "score": "n-r-r"
+                },
+                "range": {
+                    "min": 1
+                }
+            }
+        ]
+    }
+}

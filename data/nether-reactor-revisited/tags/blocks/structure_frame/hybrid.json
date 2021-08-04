@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:cobblestone",
+        "minecraft:obsidian",
+        {
+            "id": "nether-reactor-revisited:glowing_obsidian",
+            "required": false
+        }
+    ]
+}

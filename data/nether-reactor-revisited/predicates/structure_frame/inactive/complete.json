@@ -1,0 +1,14 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "nether-reactor-revisited:structure_frame/inactive/complete/layer1"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "nether-reactor-revisited:structure_frame/inactive/complete/layer2"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "nether-reactor-revisited:structure_frame/inactive/complete/layer3"
+    }
+]

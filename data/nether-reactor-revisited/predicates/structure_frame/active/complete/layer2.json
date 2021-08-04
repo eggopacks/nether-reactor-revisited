@@ -1,0 +1,54 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "nether-reactor-revisited:glowing_obsidian"
+                ]
+            }
+        },
+        "offsetX": 1,
+        "offsetY": 0,
+        "offsetZ": 1
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "nether-reactor-revisited:glowing_obsidian"
+                ]
+            }
+        },
+        "offsetX": -1,
+        "offsetY": 0,
+        "offsetZ": 1
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "nether-reactor-revisited:glowing_obsidian"
+                ]
+            }
+        },
+        "offsetX": 1,
+        "offsetY": 0,
+        "offsetZ": -1
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "nether-reactor-revisited:glowing_obsidian"
+                ]
+            }
+        },
+        "offsetX": -1,
+        "offsetY": 0,
+        "offsetZ": -1
+    }
+]
