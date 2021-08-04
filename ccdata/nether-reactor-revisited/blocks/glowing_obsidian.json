@@ -1,0 +1,14 @@
+{
+    "type": "ccpacks:block",
+    "subtype": "generic",
+    "identifier": "nether-reactor-revisited:glowing_obsidian",
+    "sound": "stone",
+    "material": "stone",
+    "effective_tool": "pickaxe",
+    "mining_level": 3,
+    "hardness": 50,
+    "slipperiness": 0.6,
+    "resistance": 1200,
+    "luminance": 12,
+    "loot_table": "nether-reactor-revisited:blocks/glowing_obsidian"
+}

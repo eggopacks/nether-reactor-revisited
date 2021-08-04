@@ -1,0 +1,14 @@
+{
+    "type": "ccpacks:block",
+    "subtype": "generic",
+    "identifier": "nether-reactor-revisited:active",
+    "sound": "metal",
+    "material": "metal",
+    "effective_tool": "pickaxe",
+    "mining_level": 0,
+    "hardness": 2,
+    "slipperiness": 0.6,
+    "resistance": 6,
+    "luminance": 2,
+    "loot_table": "nether-reactor-revisited:blocks/active"
+}
