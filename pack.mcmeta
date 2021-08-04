@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 7,
+        "version": "2.0.0",
+        "authors": [
+            "eggohito"
+        ],
+        "description": "A CCPack that recreates the Nether Reactor"
+    }
+}
