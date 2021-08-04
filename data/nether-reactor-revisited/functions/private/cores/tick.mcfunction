@@ -13,7 +13,7 @@ execute unless block ~ ~ ~ #nether-reactor-revisited:cores run function nether-r
     ##  Increase its tick value, and add the `nether-reactor-revisited.deconstructing` tag if it reaches the max tick threshold
     scoreboard players add @s[tag = nether-reactor-revisited.active] n-r-r.ticks1 1
 
-    execute if score @s[tag = nether-reactor-revisited.active] n-r-r.ticks1 = $max_live_ticks n-r-r run function nether-reactor-revisited:private/events/structure_frame/deconstruct
+    execute if score @s[tag = nether-reactor-revisited.active] n-r-r.ticks1 >= $max_active_ticks n-r-r run function nether-reactor-revisited:private/events/structure_frame/deconstruct
 
 
     ##  Spawn zombified piglins!
