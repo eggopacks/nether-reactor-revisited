@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "nether-reactor-revisited:glowing_obsidian",
+            "required": false
+        },
+        {
+            "id": "nether-reactor-revisited:cores",
+            "required": false
+        }
+    ]
+}

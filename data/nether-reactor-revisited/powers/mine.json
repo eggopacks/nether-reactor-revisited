@@ -1,0 +1,12 @@
+{
+    "type": "apoli:action_on_block_break",
+    "block_action": {
+        "type": "apoli:execute_command",
+        "command": "tag @e[tag = nether-reactor-revisited.core, distance = ..0.8] add nether-reactor-revisited.drop"
+    },
+    "block_condition": {
+        "type": "apoli:in_tag",
+        "tag": "nether-reactor-revisited:cores"
+    },
+    "only_when_harvested": true
+}

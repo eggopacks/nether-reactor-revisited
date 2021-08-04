@@ -1,0 +1,150 @@
+{
+    "type": "apoli:multiple",
+    "left_click": {
+        "type": "apoli:active_self",
+        "entity_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:execute_command",
+                    "command": "data modify storage eggohito:nether-reactor-revisited root.player.mainhand set from entity @s SelectedItem"
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "data modify storage eggohito:nether-reactor-revisited root.player.offhand set from entity @s Inventory[{Slot: -106b}]"
+                },
+                {
+                    "type": "apoli:delay",
+                    "action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "apoli:execute_command",
+                                "command": "tag @s add self"
+                            },
+                            {
+                                "type": "ccpacks:raycast_block",
+                                "distance": 5,
+                                "entity_action": {
+                                    "type": "apoli:execute_command",
+                                    "command": "function #nether-reactor-revisited:left_clicked/as_at_self"
+                                },
+                                "block_action": {
+                                    "type": "apoli:execute_command",
+                                    "command": "function #nether-reactor-revisited:left_clicked/at_block"
+                                },
+                                "block_condition": {
+                                    "type": "apoli:in_tag",
+                                    "tag": "nether-reactor-revisited:cores"
+                                }
+                            },
+                            {
+                                "type": "apoli:execute_command",
+                                "command": "tag @s remove self"
+                            },
+                            {
+                                "type": "apoli:execute_command",
+                                "command": "data remove storage eggohito:nether-reactor-revisited root.player"
+                            }
+                        ]
+                    },
+                    "ticks": 1
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition": {
+            "type": "apoli:or",
+            "conditions": [
+                {
+                    "type": "apoli:gamemode",
+                    "gamemode": "creative"
+                },
+                {
+                    "type": "apoli:gamemode",
+                    "gamemode": "spectator"
+                }
+            ],
+            "inverted": true
+        }
+    },
+    "right_click": {
+        "type": "apoli:active_self",
+        "entity_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:execute_command",
+                    "command": "data modify storage eggohito:nether-reactor-revisited root.player.mainhand set from entity @s SelectedItem"
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "data modify storage eggohito:nether-reactor-revisited root.player.offhand set from entity @s Inventory[{Slot: -106b}]"
+                },
+                {
+                    "type": "apoli:delay",
+                    "action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "apoli:execute_command",
+                                "command": "tag @s add self"
+                            },
+                            {
+                                "type": "ccpacks:raycast_block",
+                                "distance": 5,
+                                "entity_action": {
+                                    "type": "apoli:execute_command",
+                                    "command": "function #nether-reactor-revisited:right_clicked/as_at_self"
+                                },
+                                "block_action": {
+                                    "type": "apoli:execute_command",
+                                    "command": "function #nether-reactor-revisited:right_clicked/at_block"
+                                },
+                                "block_condition": {
+                                    "type": "apoli:in_tag",
+                                    "tag": "nether-reactor-revisited:cores"
+                                }
+                            },
+                            {
+                                "type": "apoli:execute_command",
+                                "command": "tag @s remove self"
+                            },
+                            {
+                                "type": "apoli:execute_command",
+                                "command": "data remove storage eggohito:nether-reactor-revisited root.player"
+                            }
+                        ]
+                    },
+                    "ticks": 1
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.use",
+            "continuous": true
+        },
+        "condition": {
+            "type": "apoli:or",
+            "conditions": [
+                {
+                    "type": "apoli:gamemode",
+                    "gamemode": "spectator"
+                }
+            ],
+            "inverted": true
+        }
+    },
+    "hidden": true
+}

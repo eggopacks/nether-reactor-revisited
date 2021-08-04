@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "nether-reactor-revisited:normal",
+            "required": false
+        },
+        {
+            "id": "nether-reactor-revisited:active",
+            "required": false
+        },
+        {
+            "id": "nether-reactor-revisited:inactive",
+            "required": false
+        }
+    ]
+}

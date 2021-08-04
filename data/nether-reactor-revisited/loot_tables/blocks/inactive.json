@@ -1,0 +1,102 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "nether-reactor-revisited:inactive"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                },
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "Forge uses left: %s",
+                            "italic": false,
+                            "color": "gray",
+                            "with": [
+                                {
+                                    "entity": "@s",
+                                    "nbt": "data.eggohito.nether-reactor-revisited.forge_uses"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "source": "this",
+                    "ops": [
+                        {
+                            "op": "merge",
+                            "source": "data.eggohito.ccpacks-nether-reactor",
+                            "target": "eggohito.nether-reactor-revisited"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "nether-reactor-revisited:inactive"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:player"
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "Forge uses left: %s",
+                            "italic": false,
+                            "color": "gray",
+                            "with": [
+                                {
+                                    "text": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{eggohito: {nether-reactor-revisited: {forge_uses: 0}}}"
+                }
+            ]
+        }
+    ]
+}
