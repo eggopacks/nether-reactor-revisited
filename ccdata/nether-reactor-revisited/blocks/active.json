@@ -10,5 +10,6 @@
     "slipperiness": 0.6,
     "resistance": 6,
     "luminance": 2,
-    "loot_table": "nether-reactor-revisited:blocks/active"
+    "loot_table": "nether-reactor-revisited:empty",
+    "make_block_item": false
 }

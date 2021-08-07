@@ -20,14 +20,30 @@ scoreboard objectives add n-r-r.ticks2 dummy
 
 
 #   Display a load message to players
-execute unless score nether-reactor-revisited load.status = nether-reactor-revisited load.status run function nether-reactor-revisited:.conf/default
+execute unless score #loaded n-r-r = #loaded n-r-r run function nether-reactor-revisited:.conf/default
 
-execute unless score nether-reactor-revisited load.status = nether-reactor-revisited load.status run tellraw @a {"text": "[+ Loaded \"Nether Reactor: Revisited (CCPacks)\"]", "color": "green"}
+execute unless score #loaded n-r-r = #loaded n-r-r run tellraw @a {"text": "[+ Loaded \"Nether Reactor: Revisited (CCPacks)\"]", "color": "green"}
 
-execute if score nether-reactor-revisited load.status = nether-reactor-revisited load.status run tellraw @a[tag = nether-reactor-revisited.debugger] {"text": "[+ Reloaded \"Nether Reactor: Revisited (CCPacks)\"]", "color": "green"}
+execute if score #loaded n-r-r = #loaded n-r-r run tellraw @a[tag = nether-reactor-revisited.debugger] {"text": "[+ Reloaded \"Nether Reactor: Revisited (CCPacks)\"]", "color": "green"}
 
 
-scoreboard players set #max_ticks n-r-r 20
+scoreboard players set #24000 n-r-r 24000
+
+scoreboard players set #10000 n-r-r 10000
+
+scoreboard players set #1000 n-r-r 1000
+
+scoreboard players set #100 n-r-r 100
+
+scoreboard players set #20 n-r-r 20
+
+scoreboard players set #10 n-r-r 10
+
+scoreboard players set #1 n-r-r 1
+
+scoreboard players set #-1 n-r-r -1
+
+scoreboard players set #loaded n-r-r 1
 
 scoreboard players set nether-reactor-revisited load.status 100
 

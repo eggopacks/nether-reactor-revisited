@@ -5,6 +5,10 @@
 #@user
 
 
+#   Display an uninstallation message
+tellraw @a {"text": "[- Disabled \"Nether Reactor: Revisited (CCPacks)\"]", "color": "red"}
+
+
 #   Remove command storages
 data remove storage eggohito:nether-reactor-revisited root
 
@@ -25,6 +29,8 @@ scoreboard objectives remove n-r-r.ticks2
 
 #   Remove scheduled functions
 schedule clear nether-reactor-revisited:private/tick
+
+schedule clear nether-reactor-revisited:private/events/daytime/start
 
 
 #   Unload datapack

@@ -14,6 +14,8 @@ data modify entity @s data.eggohito.nether-reactor-revisited.forge_uses set valu
 
 
 #   Remove the previous states, and add the `nether-reactor-revisited.deconstructing` tag
+scoreboard players reset @s n-r-r.ticks1
+
 tag @s remove nether-reactor-revisited.active
 
 tag @s remove nether-reactor-revisited.stable

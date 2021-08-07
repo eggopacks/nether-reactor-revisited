@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "DID",
-        "DID",
-        "DID"
+        "IDI",
+        "IDI",
+        "IDI"
     ],
     "key": {
         "D": {

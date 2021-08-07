@@ -5,18 +5,18 @@
 #@within function *:private/events/spawn_stuff
 
 
-execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~5 ~1.5 ~ run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
+execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~5 ~ ~ run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
 
-execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~-5 ~1.5 ~ run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
+execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~-5 ~ ~ run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
 
-execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~ ~1.5 ~5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
+execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~ ~ ~5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
 
-execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~ ~1.5 ~-5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
+execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~ ~ ~-5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
 
-execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~5 ~1.5 ~5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
+execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~5 ~ ~5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
 
-execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~-5 ~1.5 ~-5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
+execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~-5 ~ ~-5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
 
-execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~-5 ~1.5 ~5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
+execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~-5 ~ ~5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
 
-execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~5 ~1.5 ~-5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff
+execute if predicate nether-reactor-revisited:random_chance/ones/0.5 positioned ~5 ~ ~-5 run loot spawn ~ ~ ~ loot nether-reactor-revisited:items/stuff

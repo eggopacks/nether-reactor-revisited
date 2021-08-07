@@ -48,7 +48,7 @@
                     "ops": [
                         {
                             "op": "merge",
-                            "source": "data.eggohito.ccpacks-nether-reactor",
+                            "source": "data.eggohito.nether-reactor-revisited",
                             "target": "eggohito.nether-reactor-revisited"
                         }
                     ]

@@ -15,4 +15,6 @@ scoreboard players set $explode_after_ticks n-r-r 100
 
 scoreboard players set $max_active_ticks n-r-r 900
 
+scoreboard players set $mob_world_ticks n-r-r 200
+
 scoreboard players set $set_daytime_to n-r-r 18000

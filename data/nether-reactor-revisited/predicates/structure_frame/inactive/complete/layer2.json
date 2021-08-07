@@ -4,7 +4,7 @@
         "predicate": {
             "block": {
                 "blocks": [
-                    "minecraft:cobblestone"
+                    "minecraft:obsidian"
                 ]
             }
         },
@@ -30,7 +30,7 @@
         "predicate": {
             "block": {
                 "blocks": [
-                    "minecraft:cobblestone"
+                    "minecraft:obsidian"
                 ]
             }
         },
@@ -69,7 +69,7 @@
         "predicate": {
             "block": {
                 "blocks": [
-                    "minecraft:cobblestone"
+                    "minecraft:obsidian"
                 ]
             }
         },
@@ -95,7 +95,7 @@
         "predicate": {
             "block": {
                 "blocks": [
-                    "minecraft:cobblestone"
+                    "minecraft:obsidian"
                 ]
             }
         },

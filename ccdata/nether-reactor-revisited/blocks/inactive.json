@@ -10,5 +10,5 @@
     "slipperiness": 0.6,
     "resistance": 6,
     "luminance": 0,
-    "loot_table": "nether-reactor-revisited:blocks/placeholder"
+    "loot_table": "nether-reactor-revisited:empty"
 }
