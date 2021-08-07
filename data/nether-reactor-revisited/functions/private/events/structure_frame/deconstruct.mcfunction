@@ -5,6 +5,10 @@
 #@within function *:private/cores/tick
 
 
+#   Play a sound event
+playsound minecraft:block.beacon.deactivate block @a ~ ~ ~ 4 0
+
+
 #   Replace the reactor core to inactive
 setblock ~ ~ ~ nether-reactor-revisited:inactive
 

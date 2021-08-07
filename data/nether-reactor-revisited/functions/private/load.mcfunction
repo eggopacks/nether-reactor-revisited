@@ -20,12 +20,13 @@ scoreboard objectives add n-r-r.ticks2 dummy
 
 
 #   Display a load message to players
-execute unless score #loaded n-r-r = #loaded n-r-r run function nether-reactor-revisited:.conf/default
-
 execute unless score #loaded n-r-r = #loaded n-r-r run tellraw @a {"text": "[+ Loaded \"Nether Reactor: Revisited (CCPacks)\"]", "color": "green"}
 
 execute if score #loaded n-r-r = #loaded n-r-r run tellraw @a[tag = nether-reactor-revisited.debugger] {"text": "[+ Reloaded \"Nether Reactor: Revisited (CCPacks)\"]", "color": "green"}
 
+
+#   Set constants/variables
+execute unless score #loaded n-r-r = #loaded n-r-r run function nether-reactor-revisited:.conf/default
 
 scoreboard players set #24000 n-r-r 24000
 
@@ -45,7 +46,7 @@ scoreboard players set #-1 n-r-r -1
 
 scoreboard players set #loaded n-r-r 1
 
-scoreboard players set nether-reactor-revisited load.status 100
+scoreboard players set nether-reactor-revisited load.status 200
 
 
 #   Re-initialize tick function

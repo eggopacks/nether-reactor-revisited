@@ -5,6 +5,10 @@
 #@within function *:private/events/conditions/structure_frame/**
 
 
+#   Play a sound event
+playsound minecraft:item.trident.thunder block @a ~ ~ ~ 4 0
+
+
 #   Remove the previous states, and add the `nether-reactor-revisited.reconstructing` tag
 tag @s remove nether-reactor-revisited.normal
 

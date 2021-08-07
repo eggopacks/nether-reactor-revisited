@@ -13,9 +13,5 @@ tellraw @a {"text": "Daylight cycle has been halted for a few days due to tamper
 gamerule doDaylightCycle false
 
 
-#   "Set" the time to $set_daytime_to
-function nether-reactor-revisited:private/events/daytime/skip
-
-
 #   Schedule a function that would re-enable the `doDaylightCycle` gamerule
 schedule function nether-reactor-revisited:private/events/daytime/start 3d replace

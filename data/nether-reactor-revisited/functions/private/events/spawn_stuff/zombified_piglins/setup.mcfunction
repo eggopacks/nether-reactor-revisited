@@ -10,6 +10,6 @@ summon zombified_piglin
 
 
 #   Add the tag
-data modify entity @e[type = zombified_piglin, tag = !nether-reactor-revisited.old_pigman, limit = 1, distance = 0] DeathLootTable set value "nether-reactor-revisited:entities/old_pigman"
+data merge entity @e[type = zombified_piglin, tag = !nether-reactor-revisited.old_pigman, limit = 1, distance = 0] {Attributes: [{Name: "minecraft:generic.movement_speed", Base: 0.18d}, {Name: "minecraft:generic.attack_damage", Base: 0.0d}, {Name: "minecraft:generic.follow_range", Base: 10.0d}], DeathLootTable: "nether-reactor-revisited:entities/old_pigman"}
 
 tag @e[type = zombified_piglin, distance = 0] add nether-reactor-revisited.old_pigman

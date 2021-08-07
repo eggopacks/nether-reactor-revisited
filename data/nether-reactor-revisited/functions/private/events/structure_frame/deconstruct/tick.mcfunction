@@ -12,6 +12,8 @@ scoreboard players operation @s n-r-r.ticks2 %= $deconstruct_interval n-r-r
 
 execute if score @s n-r-r.ticks2 matches 0 run scoreboard players add @s n-r-r.frames 1
 
+execute if score @s n-r-r.ticks2 matches 0 run playsound block.stone.place block @a ~ ~ ~ 0.7
+
 
 #   Reconstruct the reactor frame block by block
 execute if score @s n-r-r.frames matches 1 run fill ~1 ~1 ~1 ~-1 ~1 ~-1 minecraft:obsidian
